@@ -76,8 +76,7 @@ public class KMeans {
 		return kmeansImage;
     }
 
-    // Your k-means code goes here
-    // Update the array rgb by assigning each entry in the rgb array to its cluster center
+    // Core k-means algorithm code
     private static void kmeans(int[] rgb, int k)
     {
     	int len = rgb.length;
